@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 
 using Renci.SshNet.Common;
-using Renci.SshNet.Messages.Authentication;
 using Renci.SshNet.Messages.Connection;
 
 namespace Renci.SshNet
@@ -141,9 +140,6 @@ namespace Renci.SshNet
         /// <value>
         /// The connection timeout. The default value is 30 seconds.
         /// </value>
-        /// <example>
-        ///   <code source="..\..\src\Renci.SshNet.Tests\Classes\SshClientTest.cs" region="Example SshClient Connect Timeout" language="C#" title="Specify connection timeout" />
-        /// </example>
         TimeSpan Timeout { get; }
 
     }
